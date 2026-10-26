@@ -9,7 +9,7 @@ elif day == "Monday" and time == "evening":
      print(f"{day} {time} review what you learn today.") 
 elif day == "Tuesday" and time == "morning":      
      print(f"{day} {time} a great day to start a ne topic.") 
-elif day == "Tuesday" and time == "evening": 
+elif day == "Tuesday" and time == "afternoon": 
      print(f"{day} {time} a good time to focus!.") 
 elif day == "Tuesday" and time == "evening": 
      print(f"{day} {time} practice a new coding exercise!.") 
