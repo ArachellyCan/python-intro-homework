@@ -1,17 +1,19 @@
 
 number =int(input("enter a number: "))
-if number <= 0: 
+
+#sing block
+
+if number < 0: 
   print (f"{number} is negative")
+   
 elif number  == 0:
-  print (f"{number}is odd")
+  print (f"{number}is zero")
 else:
   print(f"{number} positive")
 
-
-if number == 0:  
-  print (f"{number}is zero")
-elif number > 0 + 2:
-  print(f"{number} is even") 
+#Parity block
+if number % 2 == 0:  
+  print (f"{number}is even")
 else:
-  print(f"{number} is pair")   
+  print(f"{number} is odd")   
 
