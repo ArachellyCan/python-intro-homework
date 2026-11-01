@@ -1,8 +1,8 @@
-students={"name":"Fer","grade":"First Grade","subeject":"Math"}
+students={"name":"Fer","grade":"First Grade","subjects":["Math","Art"]}
 
 for key, value in students.items():#print each key value pair using the .items() in a for loop
             print(key,value)
-students["graduat"]= False # Add a new key 'graduated" with the value False
+students["graduated"]= False # Add a new key 'graduated" with the value False
 print(students)
              
              
