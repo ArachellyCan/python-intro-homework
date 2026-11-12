@@ -4,9 +4,9 @@ found = False #THE BOX found yet? starts as False
 
 for i in range(len(names)):
     if names[i] == search:
-        print(f'Found"{search}"at index {i}.')
+        print(f'Found "{search}" at index {i}.')
         found = True
         break
 
-    if not found:
-        print(f' "{search}" not found in the List.')
+if not found:
+        print(f' "{search}" was not found in the List.')
