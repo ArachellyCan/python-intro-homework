@@ -1,20 +1,36 @@
-#defining a function that takes Celsius to Fahrenheit
-
+# Defining a function that converts Celsius to Fahrenheit
 def celsius_to_fahrenheit(celsius):
-    result= ((celsius-32)* 5/9) 
+
+    # Formula: (C × 9/5) + 32
+    result = ((celsius * 9/5) + 32)
+
+    # Return the result to where the function was called
     return result
 
-#Defining a function that takes Fahrenheit to Celsius
+
+# Defining a function that converts Fahrenheit to Celsius
 def fahrenheit_to_celsius(fahrenheit):
-    result = ((fahrenheit*9/5)+32)
+
+    # Formula: (F - 32) × 5/9
+    result = ((fahrenheit - 32) * 5/9)
+
+    
+    # Return the result to where the function was called
     return result
-    
-# be aware that by having the correct alignemnet variables celsius and fahrenheit were defined    
-celsius = float(input("enter temperature in celsius"))
-fahrenheit = float(input("enter temperature in fahrenheit: "))
-    
-    
-  
-print(f"{celsius}°C is {celsius_to_fahrenheit(celsius)}°F")
-print(f"{fahrenheit}°F is {fahrenheit_to_celsius(fahrenheit)}°C")
+
+
+# Ask the user for a temperature in Celsius
+celsius = float(input("Enter temperature in Celsius: "))
+
+# Ask the user for a temperature in Fahrenheit
+fahrenheit = float(input("Enter temperature in Fahrenheit: "))
+
+
+# Call the celsius_to_fahrenheit function
+# :.1f rounds the answer to 1 decimal place
+print(f"{celsius}°C is {celsius_to_fahrenheit(celsius):.1f}°F")
+
+# Call the fahrenheit_to_celsius function
+# :.1f rounds the answer to 1 decimal place
+print(f"{fahrenheit}°F is {fahrenheit_to_celsius(fahrenheit):.1f}°C")
 
