@@ -29,7 +29,7 @@ else:
 # os.path.join() glues the pieces together into one path
 # The pieces are: "..", "data", "expenses.cvs" )
 #
-path = os.path.join(".." "data", "expenses.cvs")
+path = os.path.join(".." , "data", "expenses.csv")
 
 #print() shows the path that was built
 print(path)
