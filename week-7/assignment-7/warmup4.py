@@ -10,7 +10,7 @@ today = datetime.now()
 #%d =day of the moth as a number (23)
 #Y = four digit year (2026)
 #Everything else (the world "Today is", the comma, the period) is printed as written
-formatted = today.strftime("Today is %B %D, %Y")
+formatted = today.strftime("Today is %B %d, %Y")
 
 #print() shows the finished sentence
 print (formatted)
